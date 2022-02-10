@@ -1,0 +1,26 @@
+
+                /*          DEBUG           */
+.debug .siteHeader{
+    background-color: yellow;
+    height: 1rem;
+}
+
+.debug main :nth-child(odd){
+    background-color: green;
+    height: 1rem;
+}
+
+.debug main :nth-child(even){
+    height: 1rem;
+}
+
+.debug footer{
+    background-color: blue;
+}
+
+.debug footer>*{
+    height: .5rem;
+}
+.debug footer>:last-child{
+    background-color: purple;
+}
