@@ -5,11 +5,6 @@
 }
 .debug Header{
     background-color: yellow;
-    height: 1rem;
-}
-.debug .siteHeader{
-    height: 1rem;
-    width: 100%;
 }
 
 .debug main :nth-child(odd){
