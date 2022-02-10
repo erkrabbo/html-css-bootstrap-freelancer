@@ -1,18 +1,38 @@
 
                 /*          DEBUG           */
 .debug header{
-    background-color: yellow;
+    background-color: blue;
 }
 
 
 
 
-.debug main :nth-child(odd){
+.debug main>:nth-child(odd){
     background-color: green;
+}
+
+.debug main>:nth-child(even){
     height: 1rem;
 }
 
-.debug main :nth-child(even){
+
+.debug main .img{
+    height: 200px;
+    background-color: yellow;
+}
+
+.line{
+    background-color: red;
+    /* width: 3rem; */
+    height: 1rem;
+}
+.star{
+    background-color: black;
+    /* width: 1rem; */
+    height: 1rem;
+}
+.roles{
+    background-color: lightcyan;
     height: 1rem;
 }
 
