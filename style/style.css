@@ -1,11 +1,15 @@
 
                 /*          DEBUG           */
-.body{
-    overflow: hidden;
-}
-.debug Header{
+.debug header{
     background-color: yellow;
 }
+
+.burgerMenu{
+    border: 1px solid white;
+}
+
+
+
 
 .debug main :nth-child(odd){
     background-color: green;
@@ -15,6 +19,9 @@
 .debug main :nth-child(even){
     height: 1rem;
 }
+
+
+
 
 .debug footer{
     background-color: blue;
