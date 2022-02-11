@@ -51,9 +51,9 @@
     background-color: blue;
 }
 
-.debug footer>*{
+/* .debug footer>*{
     height: .5rem;
-}
+} */
 .debug footer>:last-child{
     background-color: purple;
 }
@@ -78,4 +78,8 @@ form>*+*{
 
 .fa-minus{
     font-size: .3rem;
+}
+
+footer .credits>*+*{
+    margin-top: 2rem;
 }
