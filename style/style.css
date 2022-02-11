@@ -36,7 +36,7 @@
     font-size: 1.5rem;
     color: black;
 
-    transform: translate(2px);
+    transform: translate(3px);
 }
 .roles{
     background-color: lightcyan;
@@ -55,4 +55,14 @@
 }
 .debug footer>:last-child{
     background-color: purple;
+}
+
+
+
+.rounded-05{
+    border-radius: 5%;
+}
+
+.mt_header-height{
+    margin-top: 56px;
 }
