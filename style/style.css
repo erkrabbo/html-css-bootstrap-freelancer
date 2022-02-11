@@ -99,3 +99,43 @@ footer .credits>*{
     /* line-height: 2rem; */
     /* font-size: 2rem; */
 }
+
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: green;
+
+    visibility: hidden;
+}
+
+.over{
+    position: absolute;
+    top:50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 6rem;
+
+    background-color: grey;
+
+    border-radius: 50%;
+
+    line-height: 6rem;
+    width: 6rem;
+
+    text-align: center;
+}
+
+.card{
+    border: 0;
+}
+
+.card:hover .overlay{
+    visibility: visible;
+}
