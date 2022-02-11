@@ -12,26 +12,46 @@
 
 </head>
 <body class="debug">
-    <header>
-        <nav class="siteHeader container-lg">
-            <ul class="row justify-content-between px-2 py-3 list-unstyled m-0">
-                <li class="col-6 p-0 text-uppercase">start bootstrap</li>
-                <li class="burgerMenu col-1 border border-white"></li>
-            </ul>
-        </nav>
+    <header class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="navbar-collapse justify-content-end collapse" id="navbarSupportedContent" style="">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    
+                    
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li><li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li></ul>
+                  
+                </div>
+              </nav>
+        </div>
     </header>
-    <main>
+    <main class="mt-5">
         <section>
-            <div class="container-sm">
+            <div class="container-sm pt-5">
                 <div class="row justify-content-center pt-3">
                     <img src="https://picsum.photos/1080/1080" class="img-fluid col-6"  alt="">
-                    <h1 class="h1 text-center text-uppercase mt-1">start bootstrap</h1>
-                    <div class="row col-6 justify-content-center align-items-center">
-                        <div class="line col-4"></div>
-                        <i class="fa-solid fa-star col-1"></i>
-                        <div class="line col-4"></div>
+                    <h1 class="col-12 h1 text-center text-uppercase mt-1">start bootstrap</h1>
+                    <div class="col-6">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="line col-4"></div>
+                            <i class="fa-solid fa-star col-1"></i>
+                            <div class="line col-4"></div>
+                        </div>
                     </div>
-                    <ul class="list-inline text-center fs-4">
+                    <ul class="col-12 list-inline text-center fs-4">
                         <li class="list-inline-item me-0">ciao</li>
                         <li class="list-inline-item me-0">
                             <i class="fa-solid fa-minus align-middle"></i>
@@ -48,11 +68,13 @@
         <section class="pt-3">
             <div class="container-md">
                 <div class="row justify-content-center">
-                    <h2 class="text-center text-uppercase fs-3">portfolio</h2>
-                    <div class="row col-6 justify-content-center align-items-center">
-                        <div class="line col-4"></div>
-                        <i class="fa-solid fa-star col-1"></i>
-                        <div class="line col-4"></div>
+                    <h2 class="col-12 text-center text-uppercase fs-3">portfolio</h2>
+                    <div class="col-6">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="line col-4"></div>
+                            <i class="fa-solid fa-star col-1"></i>
+                            <div class="line col-4"></div>
+                        </div>
                     </div>
                     <div class="row justify-content-center gx-1 gy-2">
                         <img src="https://picsum.photos/1080/1080" class="img-fluid col-12 col-md-6 col-lg-4"  alt="">
@@ -104,24 +126,29 @@
                     <div class="w-100"></div>
 
                     <div class="row col-6 pt-3">
-                        <span class="col text-capitalize text-left px-0">name</span>
-                        <hr class="mt-4">
+
+                        <div class="col-12 border-bottom border-grey px-0 pb-3 mb-4">
+                            <span class="text-capitalize text-left px-0">name</span>
+                        </div>
                         
-                        <span class="col text-capitalize text-left px-0">email adress</span>
-                        <hr class="mt-4">
+                        <div class="col-12 border-bottom border-grey px-0 pb-3 mb-4">
+                            <span class="text-capitalize text-left px-0">email address</span>
+                        </div>
                         
-                        <span class="col text-capitalize text-left px-0">phone number</span>
-                        <hr class="mt-4">
-                        
-                        <span class="col text-capitalize text-left px-0 mb-5">message</span>
-                        <hr class="mt-5">
+                        <div class="col-12 border-bottom border-grey px-0 pb-3 mb-4">
+                            <span class="text-capitalize text-left px-0">phone</span>
+                        </div>
+
+                        <div class="col-12 border-bottom border-grey px-0 pb-5 mb-4">
+                            <span class="text-capitalize text-left px-0                                                              ">message</span>
+                        </div>
 
                         <button type="button" class="btn col-5 col-sm-3 col-md-2 bg-success text-white">send</button>
 
                     </div>
                 </div>
             </div>
-
+                      
         </section>
     </main>
     <footer>
