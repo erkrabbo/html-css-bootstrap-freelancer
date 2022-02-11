@@ -66,3 +66,11 @@
 .mt_header-height{
     margin-top: 56px;
 }
+
+form>*+*{
+    margin-top: 1rem;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
