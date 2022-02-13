@@ -37,7 +37,7 @@
     font-size: 1.5rem;
     color: black;
 
-    transform: translate(3px);
+    /* transform: translate(3px); */
 }
 .roles{
     background-color: lightcyan;
@@ -68,8 +68,8 @@
     margin-top: 56px;
 }
 
-form>*+*{
-    margin-top: 1rem;
+form>*{
+    /* margin-bottom: 1rem; */
 }
 
 .form-control:focus{
@@ -115,10 +115,12 @@ footer .credits>*{
 
 .over{
     font-size: 6rem;
+
+    color: white;
 }
 
 .green{
-    width: calc(100% - var(--bs-gutter-x));
+    /* width: calc(100% - var(--bs-gutter-x)); */
     background-color: rgba(0, 100, 0, .75);
 
     visibility: hidden;
