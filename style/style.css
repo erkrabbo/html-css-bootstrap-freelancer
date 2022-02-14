@@ -128,3 +128,7 @@ footer .credits>*{
 .card:hover .card-img-overlay{
     visibility: visible;
 }
+
+nav button.navbar-toggler:focus{
+    box-shadow: none;
+}
